@@ -25,16 +25,16 @@ pages = st.sidebar.selectbox(
 # Display image in Main page
 if pages == "Model":
 
-    image_pathok = "/Users/alina/Desktop/okk.png"
+    image_pathok = "okk.png"
     display_image(image_pathok)
-    image_pathP = "/Users/alina/Desktop/lllolll.png"
+    image_pathP = "lllolll.png"
     display_image(image_pathP)
 
     
-    image_pathP = "/Users/alina/Desktop/resultats.png"
+    image_pathP = "resultats.png"
     display_image(image_pathP)
 
-    image_pathOT = "/Users/alina/Desktop/RESULTATVVV.png"
+    image_pathOT = "RESULTATVVV.png"
     display_image(image_pathOT)
 
 
@@ -48,15 +48,15 @@ if pages == "Main page":
 
 # Display image in Interpretation of the data page
 if pages == "Interpretation of the data":
-    image_path1 = "/Users/alina/Desktop/Hackaton/1.png"
+    image_path1 = "1.png"
     display_image(image_path1)
-    image_path2 = "/Users/alina/Desktop/Hackaton/2.png"
+    image_path2 = "2.png"
     display_image(image_path2)
-    image_path3 = "/Users/alina/Desktop/Hackaton/3.png"
+    image_path3 = "3.png"
     display_image(image_path3)
-    image_path4 = "/Users/alina/Desktop/Hackaton/4.png"
+    image_path4 = "4.png"
     display_image(image_path4)
-    image_path5 = "/Users/alina/Desktop/Hackaton/6.png"
+    image_path5 = "6.png"
     display_image(image_path5)
 
 # Display dataset download link and text in Statistics page
@@ -98,11 +98,11 @@ if pages == "Statistics":
     plt.xticks(rotation=90)
     st.pyplot(fig2)
 
-    image_path13 = "/Users/alina/Desktop/Hackaton/7.png"
+    image_path13 = "7.png"
     display_image(image_path13)
-    image_path14 = "/Users/alina/Desktop/Hackaton/8.png"
+    image_path14 = "8.png"
     display_image(image_path14)
-    image_path15 = "/Users/alina/Desktop/00.png"
+    image_path15 = "00.png"
     display_image(image_path15)
 
 sidebar_image_path = "/Users/alina/Desktop/myproject/logo-microsoft-cloud-azure-png.webp"
