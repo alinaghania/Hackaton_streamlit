@@ -1,9 +1,25 @@
 import streamlit as st
 import pandas as pd
-st.title("A Simple Streamlit Web App")
-name = st.text_input("Enter your name", '')
-st.write(f"Hello {name}!")
-x = st.slider("Select an integer x", 0, 10, 1)
-y = st.slider("Select an integer y", 0, 10, 1)
-df = pd.DataFrame({"x": [x], "y": [y] , "x + y": [x + y]}, index = ["addition row"])
-st.write(df)
+from PIL import Image
+
+st.title("Hello welcome to the Hackaton- Day")
+st.write('Hello, ! ' ' :sunglasses: ', 20, 'or nothing')
+
+# Function to display image
+def display_image(image_path):
+    image = Image.open(image_path)
+    st.image(image, use_column_width=True)
+
+# Sidebar selection
+pages = st.sidebar.selectbox(
+    "CHOOSE A PAGE",
+    [
+        "Interpretation of the data",
+        "Statistics",
+    ]
+)
+
+# Display image in Interpretation of the data page
+if pages == "Interpretation of the data":
+    image_path = "/Users/alina/Desktop/Hackaton/1.png"
+    display_image(image_path)
