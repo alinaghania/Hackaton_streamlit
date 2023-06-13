@@ -16,15 +16,35 @@ pages = st.sidebar.selectbox(
     "CHOOSE A PAGE",
     [
         "Main page",
+        "Model",
         "Interpretation of the data",
         "Statistics",
+        
     ]
 )
+# Display image in Main page
+if pages == "Model":
+
+    image_pathok = "/Users/alina/Desktop/okk.png"
+    display_image(image_pathok)
+    image_pathP = "/Users/alina/Desktop/lllolll.png"
+    display_image(image_pathP)
+
+    
+    image_pathP = "/Users/alina/Desktop/resultats.png"
+    display_image(image_pathP)
+
+    image_pathOT = "/Users/alina/Desktop/RESULTATVVV.png"
+    display_image(image_pathOT)
+
+
 
 # Display image in Main page
 if pages == "Main page":
     image_path = "/Users/alina/Desktop/Hackaton/Affiche Hackathon LMG Efrei V2.png"
     display_image(image_path)
+
+
 
 # Display image in Interpretation of the data page
 if pages == "Interpretation of the data":
@@ -84,3 +104,6 @@ if pages == "Statistics":
     display_image(image_path14)
     image_path15 = "/Users/alina/Desktop/00.png"
     display_image(image_path15)
+
+sidebar_image_path = "/Users/alina/Desktop/myproject/logo-microsoft-cloud-azure-png.webp"
+st.sidebar.image(sidebar_image_path, use_column_width=True)
