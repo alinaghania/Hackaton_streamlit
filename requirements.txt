@@ -1,5 +1,4 @@
 streamlit==1.23.1
 pandas==2.0.2
-streamlit==1.23
 Image
 matplotlib
